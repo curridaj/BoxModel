@@ -58,3 +58,32 @@ div{
      border-color: chartreuse;
      border-width: 20px;
  }
+ .row1{
+     width: 25%;
+     border: 10px ridge gold;
+     margin-left:20px;
+     margin-right:20px;
+     padding:10px;
+     text-align:center;
+ }
+ .row2{
+     width: 30%;
+     border: 2px solid black;
+     margin-top:20px;
+ }
+ #center{
+     display:block;
+     width:25%;
+     margin:auto;
+ }
+ #perLeftMargin{
+     height:200px;
+     width:25%;
+     margin-left:10%;
+     margin-right:20%
+ }
+ #perRightMargin{
+     height:200px;
+     width:25%;
+     margin-right:10%
+ }
