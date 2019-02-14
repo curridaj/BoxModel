@@ -87,3 +87,23 @@ div{
      width:25%;
      margin-right:10%
  }
+ .defaultpadding{
+    padding:10px;
+ }
+ .defaultMargin{
+    margin: 0px 30px;
+ }
+ .defaultBorder{
+    border: 3px ridge fuchsia;
+ }
+ /* Selects elements inside other elements*/
+ /*section h3{
+     font-size:42px;
+ }
+ section article p{
+     color:goldenrod;
+ }*/
+ /*Selects Multiple Elements*/
+ section h3 section p{
+     color:goldenrod;
+ }
